@@ -1,11 +1,11 @@
-num = 407
+num = 39
 if num > 1:
   for i in range(2, num):
     if (num % i) == 0:
       print(num, " is not a prime.")
       print(i," times ", num//i, " is ", num, ".")
-      break
+       break
     else:
-            print(num, " is a prime.")
+      print(num, " is a prime.")
 else:
   print(num, " is not a prime.")
